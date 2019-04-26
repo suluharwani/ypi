@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Adm extends CI_Controller {
@@ -10,7 +10,6 @@ class Adm extends CI_Controller {
     $this->load->model('mdl_import');
     $this->load->model('mdl_admin');   
     $this->load->model('mdl_berita');
-
   }
   public $folder_admin = "adm"; 
   public $alert_success='<div class="alert alert-success alert-dismissible fade in" role="alert">
